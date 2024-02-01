@@ -18,3 +18,11 @@ if user == "paper":
 		print("You lost")
 	else: # cpu chose scissors
 		print("You win")
+
+if user == "scissors":
+	if cpu == 1: # cpu chose rock
+		print("Tie game")
+	elif cpu == 2: # cpu chose paper
+		print("You lost")
+	else: # cpu chose scissors
+		print("You win")
